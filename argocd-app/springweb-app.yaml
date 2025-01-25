@@ -9,9 +9,6 @@ spec:
     repoURL: 'git@github.com:Orion83-h/springweb-app.git'
     targetRevision: main
     path: .
-    helm:
-      valueFiles:
-        - values.yaml
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: webapp

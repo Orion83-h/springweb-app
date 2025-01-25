@@ -3,12 +3,12 @@ kind: Deployment
 metadata:
   name: springweb-app
   labels:
-    app:springweb-app
+    app: springweb-app
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app:springweb-app
+      app: springweb-app
   template:
     metadata:
       labels:

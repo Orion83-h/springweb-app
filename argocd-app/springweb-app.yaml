@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: 'git@github.com:Orion83-h/springweb-app.git'
     targetRevision: main
-    path: springweb-app/
+    path: .
     helm:
       valueFiles:
         - values.yaml

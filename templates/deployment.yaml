@@ -6,6 +6,7 @@ metadata:
     app: springweb-app
 spec:
   replicas: 4
+  revisionHistoryLimit: 2
   selector:
     matchLabels:
       app: springweb-app
